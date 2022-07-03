@@ -5,8 +5,8 @@
 
 html {
   height: 100%;
-  font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
+  font-family: "Rubik", sans-serif;
 }
 
 .body {
@@ -24,6 +24,12 @@ html {
 img {
   max-width: 100%;
   height: auto;
+}
+
+
+*:focus {
+  outline: 2px dashed #2959ce;
+  outline-offset: 3px;
 }
 
 
@@ -114,6 +120,21 @@ img {
   color: #555555;
 }
 
+
+/* GLOBAL-SEARCH-FORM */
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  padding: 15px 20px 13px 40px ;
+  background-color: #fff;
+  color: #8d8d8d;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
+}
 
 /* LANG-TOGGLE */
 .lang-toggle {
