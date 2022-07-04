@@ -211,3 +211,10 @@ img {
 .site-header-banner-link {
   display: flex;
 }
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+  padding-top: 50px;
+}
