@@ -516,6 +516,9 @@ img {
   object-fit: cover;
 }
 
+.sidebar-ad-huge-img {
+  height: 553px;
+}
 
 /* SITE-FOOTER */
 .site-footer {
