@@ -132,7 +132,7 @@ img {
   margin-right: 25px;
 }
 .currency-rates-type {
-  color: #2959ce;
+  color: var(--brand-color);
 }
 .currency-rates-value {
   color: #555555;
@@ -223,7 +223,7 @@ img {
 }
 
 .sitenav-link:hover {
-  color: #2959ce;
+  color: var(--brand-color);
 }
 
 .sitenav-link:active {
@@ -387,7 +387,7 @@ img {
   display: flex;
   align-items: flex-start;
   padding: 20px;
-  background: #f6f6f6;
+  background-color: #f6f6f6;
   border-radius: 15px;
 }
 
@@ -446,7 +446,7 @@ img {
 .article-card-horizontal-source-time {
   font-size: 12px;
   line-height: normal;
-  color: #5E5F61;
+  color: #5e5f61;
 }
 
 .news-list-more-button {
